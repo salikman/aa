@@ -1,0 +1,15 @@
+.about {
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 5px;
+        padding: 20px;
+        background: white;
+        border-radius: 5px;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}

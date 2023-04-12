@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* border:1px solid red; */
+*:focus {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-bg {
+    background: none !important;
+}
+
+.no-border,
+a img {
+    border: none;
+}
+
+.container:after,
+.columns:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.img-repl {
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+}
+
+.cc {
+    clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.divider {
+    background: url('../img/h-bubles.png') no-repeat 35% top;
+    width: 100%;
+    height: 20px;
+    margin: 20px 0 5px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* Text align, float
+------------------------------ */
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+/* Main styles
+------------------------------ */
+html {
+    height: 100%;
+    color: #000;
+    background: #eee url("../img/html-bg-9.png") repeat fixed;
+    font: 14px/24px Verdana, serif;
+}
+
+body {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    background: transparent url("../img/bg-cans.png") repeat fixed;
+}
+
+a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+a:visited {}
+
+a:hover {
+    color: #936400;
+    text-decoration: none;
+}
+
+a:active {}
+
+/* Layout elements amd content blocks
+------------------------------ */
+.b-1 {
+    position: relative;
+    margin: 0 auto 5px;
+    width: 800px;
+}
+
+#header {
+    margin: 0 auto;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.b-3 {
+    float: left;
+    width: 33%;
+}
+
+.b-4 {
+    float: left;
+    width: 25%;
+}
+
+.cont-wrap {
+    padding: 20px;
+    background: url('../img/bg-cont-block.png') transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#header .cont-wrap {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#header .cont-wrap,
+#footer .cont-wrap {
+    background: url('../img/bg-header-block.png') transparent;
+}
+
+.b-item {
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 20px;
+    height: 300px;
+    border-right: 1px dashed #ccc;
+}
+
+.b-3 .last {
+    border: 0;
+}
+
+#top-nav {
+    margin-bottom: 0;
+}
+
+/* Horizontal Menu
+------------------------------ */
+#top-nav .nav {
+    overflow: hidden;
+    height: 33px;
+    background: #7c704e;
+    opacity: 0.70;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+#top-nav .nav ul {
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 0 50px;
+}
+
+.nav li {
+    float: left;
+}
+
+/*.nav li.first { padding-left: 0; }
+.nav li.last { padding-right: 0; }*/
+.nav a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 7px 10px;
+    font: 14px 'Arial Black', Gadget, sans-serif;
+}
+
+.nav a:hover,
+.nav .active a {
+    color: #ece4ce;
+    background: #4a4228;
+}
+
+.home-ico {
+    background: url("../img/ico-home.png") no-repeat 0 0 transparent;
+    height: 22px;
+    left: 10px;
+    padding: 0 !important;
+    position: absolute;
+    top: 4px;
+    width: 22px;
+}
+
+.nav a.home-ico:hover {
+    background: url('../img/ico-home.png') no-repeat 0 -22px transparent;
+}
+
+/* Flags
+------------------------------ */
+#flags {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#flags li {
+    float: left;
+}
+
+#flags a {
+    display: block;
+    width: 16px;
+    height: 11px;
+    background: url("../img/ico-flags.png") 0 0 transparent;
+    margin: 0 10px 0 0;
+}
+
+#flags .fl-ru a {
+    background-position: -16px -11px;
+}
+
+#flags .fl-en a {
+    background-position: 0 -11px;
+}
+
+#flags .fl-ru a.active {
+    background-position: -16px 0;
+    cursor: text;
+}
+
+#flags .fl-en a.active {
+    background-position: 0 0;
+    cursor: text;
+}
+
+/* Footer Menu
+------------------------------ */
+
+/* Styles for text
+------------------------------ */
+h1,
+h2,
+h3 {
+    font: bold 38px/22px Times New Roman, serif;
+    padding: 0 0 15px;
+    color: #7c704e;
+}
+
+h1 {
+    padding: 5px 0 20px;
+    line-height: 42px;
+    color: #423a23;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#header h2 {
+    color: #fff;
+    font-size: 42px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+#header p,
+#footer p,
+#footer address,
+#footer h3,
+#footer a {
+    color: #fff;
+}
+
+#header p {
+    margin: 0;
+}
+
+#footer a {
+    border-bottom: 1px dotted #fff;
+}
+
+address {
+    font-style: normal;
+    display: block;
+    margin: 0 0 10px 10px;
+}
+
+/* Social icons
+------------------------------ */
+.soc {
+    padding: 0 0 0 25px;
+}
+
+.soc li {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.soc li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url('../img/soc.png') 0 0 no-repeat;
+}
+
+.soc li a.twitter {
+    background-position: -32px 0;
+}
+
+.soc li a.email {
+    background-position: -64px 0;
+}
+
+/*	Tables
+------------------------------ */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 2px 3px;
+    vertical-align: top;
+}
+
+table th {
+    background: #f4f4f4;
+}
+
+table td {}
+
+/* Images
+------------------------------ */
+#page .cont-img {
+    padding: 2px;
+    border: 1px solid #B4B4B4;
+    margin: 15px 15px 0;
+}
+
+#page .w-profile img {
+    float: right;
+    margin: 0 0 0 20px;
+}
+
+.b-img img {
+    padding: 2px;
+    border: 1px solid #ccccc9;
+}
+
+.content .hw-item img {
+    padding: 0 !important;
+    border: 6px solid #002446 !important;
+    margin-top: .4em;
+}
+
+img.f-left {
+    margin-right: 20px !important;
+}
+
+img.f-right {
+    margin-left: 20px !important;
+}
+
+.warehouse-img {
+    float: left;
+    padding: 10px 40px;
+}
+
+.f-right img {
+    margin-left: 10px;
+}
+
+#fcb {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../img/facebook.png') left top no-repeat;
+    top: 13px;
+    right: 15px;
+}
+
+#fcb:hover {
+    background: url('../img/facebook.png') left -25px no-repeat;
+}
+
+#copy {
+    text-align: center;
+    padding: 40px 0 0;
+}
+
+#copy p {
+    font-size: 12px;
+}
+
+#copy a {
+    color: #afa352;
+}
+
+/* Contact Form
+------------------------------ */
+form label {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+.f-inputs {
+    /*padding: 0 0 10%;*/
+}
+
+input {
+    vertical-align: middle;
+}
+
+.i-text {
+    width: 350px;
+    padding: 5px;
+    font: 1em sans-serif;
+}
+
+.f-actions input {
+    border: none;
+}
+
+.f-actions .button {
+    cursor: pointer;
+    background: #555;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.error {
+    color: #EE1C25;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+input {
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    border-radius: active 3px;
+}
