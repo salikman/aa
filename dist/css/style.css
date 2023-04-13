@@ -882,7 +882,6 @@ input {
 *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  float: none !important;
 }
 
 body {
@@ -1043,6 +1042,10 @@ select {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.fancybox-thumbs__list a {
+  background-size: contain;
 }
 
 .cont-wrap {
