@@ -446,9 +446,7 @@ a img {
 }
 
 .divider {
-  background: url("../img/h-bubles.png") no-repeat 35% top; }
-
-.divider {
+  background: url("../img/h-bubles.png") no-repeat 35% top;
   width: 100%;
   height: 20px;
   margin: 20px 0 5px;
@@ -473,21 +471,17 @@ ul li {
 ------------------------------ */
 
 html {
-  background: #eee url("../img/html-bg-9.png") repeat fixed; }
-
-html {
   height: 100%;
   color: #000;
+  background: #eee url("../img/html-bg-9.png") repeat fixed;
   font: 14px/24px Verdana, serif;
 }
-
-body {
-  background: transparent url("../img/bg-cans.png") repeat fixed; }
 
 body {
   height: auto !important;
   height: 100%;
   min-height: 100%;
+  background: transparent url("../img/bg-cans.png") repeat fixed;
 }
 
 a {
@@ -525,10 +519,8 @@ a:hover {
 }
 
 .cont-wrap {
-  background: url("../img/bg-cont-block.png") transparent; }
-
-.cont-wrap {
   padding: 20px;
+  background: url("../img/bg-cont-block.png") transparent;
   border-radius: 5px;
 }
 
@@ -536,8 +528,10 @@ a:hover {
   border-radius: 0;
 }
 
-#header .cont-wrap, #footer .cont-wrap {
-  background: url("../img/bg-header-block.png") transparent; }
+#header .cont-wrap,
+#footer .cont-wrap {
+  background: url("../img/bg-header-block.png") transparent;
+}
 
 .b-item {
   text-align: center;
@@ -597,9 +591,7 @@ a:hover {
 }
 
 .home-ico {
-  background: url("../img/ico-home.png") no-repeat 0 0 transparent; }
-
-.home-ico {
+  background: url("../img/ico-home.png") no-repeat 0 0 transparent;
   height: 22px;
   left: 10px;
   padding: 0 !important;
@@ -609,7 +601,8 @@ a:hover {
 }
 
 .nav a.home-ico:hover {
-  background: url("../img/ico-home.png") no-repeat 0 -22px transparent; }
+  background: url("../img/ico-home.png") no-repeat 0 -22px transparent;
+}
 
 /* Flags
 ------------------------------ */
@@ -625,12 +618,10 @@ a:hover {
 }
 
 #flags a {
-  background: url("../img/ico-flags.png") 0 0 transparent; }
-
-#flags a {
   display: block;
   width: 16px;
   height: 11px;
+  background: url("../img/ico-flags.png") 0 0 transparent;
   margin: 0 10px 0 0;
 }
 
@@ -725,12 +716,10 @@ address {
 }
 
 .soc li a {
-  background: url("../img/soc.png") 0 0 no-repeat; }
-
-.soc li a {
   display: block;
   width: 32px;
   height: 32px;
+  background: url("../img/soc.png") 0 0 no-repeat;
 }
 
 .soc li a.twitter {
@@ -803,19 +792,18 @@ img.f-right {
 }
 
 #fcb {
-  background: url("../img/facebook.png") left top no-repeat; }
-
-#fcb {
   position: absolute;
   display: block;
   width: 25px;
   height: 25px;
+  background: url("../img/facebook.png") left top no-repeat;
   top: 13px;
   right: 15px;
 }
 
 #fcb:hover {
-  background: url("../img/facebook.png") left -25px no-repeat; }
+  background: url("../img/facebook.png") left -25px no-repeat;
+}
 
 #copy {
   text-align: center;
@@ -1281,25 +1269,3 @@ select {
     grid-template-columns: 1fr;
   }
 }
-
-.webp .divider { background: url(../img/h-bubles.webp) no-repeat 35% top; }
-
-.webp html { background: #eee url(../img/html-bg-9.webp) repeat fixed; }
-
-.webp body { background: transparent url(../img/bg-cans.webp) repeat fixed; }
-
-.webp .cont-wrap { background: url(../img/bg-cont-block.webp) transparent; }
-
-.webp #header .cont-wrap, .webp #footer .cont-wrap { background: url(../img/bg-header-block.webp) transparent; }
-
-.webp .home-ico { background: url(../img/ico-home.webp) no-repeat 0 0 transparent; }
-
-.webp .nav a.home-ico:hover { background: url(../img/ico-home.webp) no-repeat 0 -22px transparent; }
-
-.webp #flags a { background: url(../img/ico-flags.webp) 0 0 transparent; }
-
-.webp .soc li a { background: url(../img/soc.webp) 0 0 no-repeat; }
-
-.webp #fcb { background: url(../img/facebook.webp) left top no-repeat; }
-
-.webp #fcb:hover { background: url(../img/facebook.webp) left -25px no-repeat; }
