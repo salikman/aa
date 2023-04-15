@@ -445,7 +445,7 @@ a img {
   visibility: hidden;
 }
 
-.no-webp .divider {
+.divider {
   background: url("../img/h-bubles.png") no-repeat 35% top; }
 
 .divider {
@@ -472,7 +472,7 @@ ul li {
 /* Main styles
 ------------------------------ */
 
-.no-webp html {
+html {
   background: #eee url("../img/html-bg-9.png") repeat fixed; }
 
 html {
@@ -481,7 +481,7 @@ html {
   font: 14px/24px Verdana, serif;
 }
 
-.no-webp body {
+body {
   background: transparent url("../img/bg-cans.png") repeat fixed; }
 
 body {
@@ -524,7 +524,7 @@ a:hover {
   width: 25%;
 }
 
-.no-webp .cont-wrap {
+.cont-wrap {
   background: url("../img/bg-cont-block.png") transparent; }
 
 .cont-wrap {
@@ -536,7 +536,7 @@ a:hover {
   border-radius: 0;
 }
 
-.no-webp #header .cont-wrap, .no-webp #footer .cont-wrap {
+#header .cont-wrap, #footer .cont-wrap {
   background: url("../img/bg-header-block.png") transparent; }
 
 .b-item {
@@ -596,7 +596,7 @@ a:hover {
   background: #4a4228;
 }
 
-.no-webp .home-ico {
+.home-ico {
   background: url("../img/ico-home.png") no-repeat 0 0 transparent; }
 
 .home-ico {
@@ -608,7 +608,7 @@ a:hover {
   width: 22px;
 }
 
-.no-webp .nav a.home-ico:hover {
+.nav a.home-ico:hover {
   background: url("../img/ico-home.png") no-repeat 0 -22px transparent; }
 
 /* Flags
@@ -624,7 +624,7 @@ a:hover {
   float: left;
 }
 
-.no-webp #flags a {
+#flags a {
   background: url("../img/ico-flags.png") 0 0 transparent; }
 
 #flags a {
@@ -724,7 +724,7 @@ address {
   padding: 0 10px 0 0;
 }
 
-.no-webp .soc li a {
+.soc li a {
   background: url("../img/soc.png") 0 0 no-repeat; }
 
 .soc li a {
@@ -802,7 +802,7 @@ img.f-right {
   margin-left: 10px;
 }
 
-.no-webp #fcb {
+#fcb {
   background: url("../img/facebook.png") left top no-repeat; }
 
 #fcb {
@@ -814,7 +814,7 @@ img.f-right {
   right: 15px;
 }
 
-.no-webp #fcb:hover {
+#fcb:hover {
   background: url("../img/facebook.png") left -25px no-repeat; }
 
 #copy {
